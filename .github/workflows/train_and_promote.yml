@@ -21,7 +21,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r model_training/requirements.txt
-          pip install -r mlops/requirements.txt
 
       - name: Run training and promotion scripts
         env:
